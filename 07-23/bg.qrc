@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="bg">
+    <file>img_animals/bird.jpg</file>
+    <file>img_animals/cat.jpg</file>
+    <file>img_animals/pig.jpg</file>
+    <file>img_animals/wolf.jpg</file>
+  </qresource>
+</RCC>
