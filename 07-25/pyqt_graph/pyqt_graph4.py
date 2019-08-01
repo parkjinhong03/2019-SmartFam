@@ -1,0 +1,122 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'pyqt_graph4.ui'
+#
+# Created by: PyQt5 UI code generator 5.11.2
+#
+# WARNING! All changes made in this file will be lost!
+
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+class Ui_Dialog(object):
+    def setupUi(self, Dialog):
+        Dialog.setObjectName("Dialog")
+        Dialog.resize(579, 385)
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(Dialog.sizePolicy().hasHeightForWidth())
+        Dialog.setSizePolicy(sizePolicy)
+        Dialog.setMaximumSize(QtCore.QSize(579, 385))
+        self.graphicsView = PlotWidget(Dialog)
+        self.graphicsView.setGeometry(QtCore.QRect(30, 60, 521, 211))
+        self.graphicsView.setObjectName("graphicsView")
+        self.frame = QtWidgets.QFrame(Dialog)
+        self.frame.setGeometry(QtCore.QRect(0, 0, 581, 41))
+        self.frame.setStyleSheet("background-color: rgb(170, 170, 255);")
+        self.frame.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.frame.setFrameShadow(QtWidgets.QFrame.Raised)
+        self.frame.setObjectName("frame")
+        self.label = QtWidgets.QLabel(self.frame)
+        self.label.setGeometry(QtCore.QRect(200, 10, 181, 20))
+        self.label.setStyleSheet("font: 75 18pt \"Arial\";\n"
+"color: rgb(255, 0, 0);")
+        self.label.setObjectName("label")
+        self.Quit = QtWidgets.QPushButton(Dialog)
+        self.Quit.setGeometry(QtCore.QRect(440, 350, 75, 23))
+        self.Quit.setObjectName("Quit")
+        self.widget = QtWidgets.QWidget(Dialog)
+        self.widget.setGeometry(QtCore.QRect(50, 280, 471, 51))
+        self.widget.setObjectName("widget")
+        self.gridLayout = QtWidgets.QGridLayout(self.widget)
+        self.gridLayout.setContentsMargins(0, 0, 0, 0)
+        self.gridLayout.setObjectName("gridLayout")
+        self.label_2 = QtWidgets.QLabel(self.widget)
+        font = QtGui.QFont()
+        font.setPointSize(13)
+        font.setBold(True)
+        font.setWeight(75)
+        self.label_2.setFont(font)
+        self.label_2.setLayoutDirection(QtCore.Qt.LeftToRight)
+        self.label_2.setAlignment(QtCore.Qt.AlignCenter)
+        self.label_2.setObjectName("label_2")
+        self.gridLayout.addWidget(self.label_2, 0, 0, 1, 1)
+        self.label_3 = QtWidgets.QLabel(self.widget)
+        font = QtGui.QFont()
+        font.setPointSize(13)
+        font.setBold(True)
+        font.setWeight(75)
+        self.label_3.setFont(font)
+        self.label_3.setAlignment(QtCore.Qt.AlignCenter)
+        self.label_3.setObjectName("label_3")
+        self.gridLayout.addWidget(self.label_3, 0, 1, 1, 1)
+        self.label_4 = QtWidgets.QLabel(self.widget)
+        font = QtGui.QFont()
+        font.setPointSize(13)
+        font.setBold(True)
+        font.setWeight(75)
+        self.label_4.setFont(font)
+        self.label_4.setAlignment(QtCore.Qt.AlignCenter)
+        self.label_4.setObjectName("label_4")
+        self.gridLayout.addWidget(self.label_4, 0, 2, 1, 1)
+        self.DisTemp = QtWidgets.QLineEdit(self.widget)
+        font = QtGui.QFont()
+        font.setPointSize(14)
+        font.setBold(True)
+        font.setWeight(75)
+        self.DisTemp.setFont(font)
+        self.DisTemp.setAlignment(QtCore.Qt.AlignCenter)
+        self.DisTemp.setObjectName("DisTemp")
+        self.gridLayout.addWidget(self.DisTemp, 1, 0, 1, 1)
+        self.DisHumi = QtWidgets.QLineEdit(self.widget)
+        font = QtGui.QFont()
+        font.setPointSize(14)
+        font.setBold(True)
+        font.setWeight(75)
+        self.DisHumi.setFont(font)
+        self.DisHumi.setAlignment(QtCore.Qt.AlignCenter)
+        self.DisHumi.setObjectName("DisHumi")
+        self.gridLayout.addWidget(self.DisHumi, 1, 1, 1, 1)
+        self.DisCo2 = QtWidgets.QLineEdit(self.widget)
+        font = QtGui.QFont()
+        font.setPointSize(14)
+        font.setBold(True)
+        font.setWeight(75)
+        self.DisCo2.setFont(font)
+        self.DisCo2.setAlignment(QtCore.Qt.AlignCenter)
+        self.DisCo2.setObjectName("DisCo2")
+        self.gridLayout.addWidget(self.DisCo2, 1, 2, 1, 1)
+
+        self.retranslateUi(Dialog)
+        QtCore.QMetaObject.connectSlotsByName(Dialog)
+
+    def retranslateUi(self, Dialog):
+        _translate = QtCore.QCoreApplication.translate
+        Dialog.setWindowTitle(_translate("Dialog", "Dialog"))
+        self.label.setText(_translate("Dialog", "PyQt Graph"))
+        self.Quit.setText(_translate("Dialog", "Quit"))
+        self.label_2.setText(_translate("Dialog", "Temp"))
+        self.label_3.setText(_translate("Dialog", "Humi"))
+        self.label_4.setText(_translate("Dialog", "Co2"))
+
+from pyqtgraph import PlotWidget
+
+if __name__ == "__main__":
+    import sys
+    app = QtWidgets.QApplication(sys.argv)
+    Dialog = QtWidgets.QDialog()
+    ui = Ui_Dialog()
+    ui.setupUi(Dialog)
+    Dialog.show()
+    sys.exit(app.exec_())
+

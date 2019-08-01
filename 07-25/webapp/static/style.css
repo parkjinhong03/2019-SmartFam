@@ -1,0 +1,15 @@
+body
+{
+	background-color:black;
+	text-align: center;
+}
+div.onoff a
+{	
+	font-size: 80px;
+	color: blue;
+}
+p
+{
+	font-size: 30px;
+	color : yellow;
+}
