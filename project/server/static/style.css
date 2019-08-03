@@ -1,0 +1,30 @@
+
+#temp {
+    margin-left: 490px;
+    float: left;
+    max-width: 100%;
+    font-size: 100px;
+}
+
+#humi {
+    max-width: 100%;
+    font-size: 100px;
+    margin-top: 200px;
+}
+
+#temp_text {
+    margin-left: 490px;
+    float: left;
+    max-width: 100%;
+    font-size: 70px;
+    color: red;
+    margin-left: 520px;
+}
+
+#humi_text {
+    max-width: 100%;
+    font-size: 70px;
+    margin-top: 200px;
+    color: blue;
+    margin-top: 60px;
+}

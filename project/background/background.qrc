@@ -1,0 +1,16 @@
+<RCC>
+  <qresource prefix="bg">
+    <file>56783002-태양-아이콘-.jpg</file>
+    <file>sun.jpg</file>
+    <file>sky.jpg</file>
+    <file>rainbow.jpg</file>
+  </qresource>
+  <qresource prefix="img">
+    <file>CAMERA.jpg</file>
+    <file>water.jpg</file>
+    <file>pan.png</file>
+    <file>button_off.PNG</file>
+    <file>btn_on.PNG</file>
+    <file>led.jpg</file>
+  </qresource>
+</RCC>
