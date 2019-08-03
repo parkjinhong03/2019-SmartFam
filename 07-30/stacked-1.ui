@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>StackedWidget</class>
+ <widget class="QMainWindow" name="StackedWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>640</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>StackedWidget</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>70</y>
+      <width>571</width>
+      <height>361</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>2</number>
+    </property>
+    <widget class="QWidget" name="page_1">
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>30</y>
+        <width>400</width>
+        <height>300</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 0, 255);</string>
+      </property>
+      <property name="text">
+       <string>Page-1</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_2">
+     <widget class="QPushButton" name="pushButton">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>40</y>
+        <width>400</width>
+        <height>300</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string>PAGE - 2</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_3">
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>40</y>
+        <width>400</width>
+        <height>300</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 255, 0);</string>
+      </property>
+      <property name="text">
+       <string>PAGE - 3</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_4">
+     <widget class="QPushButton" name="pushButton_4">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>40</y>
+        <width>400</width>
+        <height>300</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 0, 255);</string>
+      </property>
+      <property name="text">
+       <string>PAGE - 4</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>20</y>
+      <width>501</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QPushButton" name="push_1">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+border-radius : 8px;
+background-color: rgb(85, 85, 255);
+color: rgb(255, 255, 127);
+font: 75 14pt &quot;Arial&quot;;
+}
+QPushButton:checked {
+border-radius : 8px;
+background-color: rgb(170, 0, 0);
+color: rgb(0, 0, 255);
+font: 75 14pt &quot;Arial&quot;;
+}</string>
+       </property>
+       <property name="text">
+        <string>Push-1</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="push_2">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+border-radius : 8px;
+background-color: rgb(85, 85, 255);
+color: rgb(255, 255, 127);
+font: 75 14pt &quot;Arial&quot;;
+}
+QPushButton:checked {
+border-radius : 8px;
+background-color: rgb(170, 0, 0);
+color: rgb(0, 0, 255);
+font: 75 14pt &quot;Arial&quot;;
+}</string>
+       </property>
+       <property name="text">
+        <string>Push-2</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="push_3">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+border-radius : 8px;
+background-color: rgb(85, 85, 255);
+color: rgb(255, 255, 127);
+font: 75 14pt &quot;Arial&quot;;
+}
+QPushButton:checked {
+border-radius : 8px;
+background-color: rgb(170, 0, 0);
+color: rgb(0, 0, 255);
+font: 75 14pt &quot;Arial&quot;;
+}</string>
+       </property>
+       <property name="text">
+        <string>Push-3</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="push_4">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+border-radius : 8px;
+background-color: rgb(85, 85, 255);
+color: rgb(255, 255, 127);
+font: 75 14pt &quot;Arial&quot;;
+}
+QPushButton:checked {
+border-radius : 8px;
+background-color: rgb(170, 0, 0);
+color: rgb(0, 0, 255);
+font: 75 14pt &quot;Arial&quot;;
+}</string>
+       </property>
+       <property name="text">
+        <string>Push-4</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
